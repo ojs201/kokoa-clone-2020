@@ -19,7 +19,8 @@
   align-items: center;
   background-image: url("../../screenshots/Background-Sugar.jpg");
   background-size: 100% 100%;
-  height: 80%;
+  height: calc(100% - 198px);
+  position: relative;
 }
 
 .profile-screen-Rori {
@@ -28,7 +29,8 @@
 }
 
 .profile-component {
-  margin-top: 90%;
+  position: absolute;
+  top: 70%;
 }
 
 .profile-component__profile-img img {

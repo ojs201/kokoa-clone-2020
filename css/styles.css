@@ -23,12 +23,13 @@
 
 html {
   height: 100%;
+  position: relative;
 }
 
 body {
   font-family: "Oswald", sans-serif;
   color: #2f363e;
-  height: 95%;
+  height: calc(100vh - 42px);
 }
 
 .welcome-header {
