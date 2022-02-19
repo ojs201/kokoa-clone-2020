@@ -1,0 +1,11 @@
+.welcome-header__title {
+  position: relative;
+}
+
+.welcome-header i {
+  font-size: 20px;
+  transform: rotateZ(20deg);
+  position: absolute;
+  top: -10px;
+  right: -25px;
+}

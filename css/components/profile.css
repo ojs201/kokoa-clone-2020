@@ -1,0 +1,70 @@
+.profile-header {
+  padding: var(--horizontal-space);
+  margin-top: 42px;
+  display: flex;
+  justify-content: space-between;
+  background-color: beige;
+}
+
+.profile-header__column:nth-child(2) i {
+  margin: 0 5px;
+  padding: 5px;
+  border: 1px solid;
+  border-radius: 20px;
+}
+
+.profile-screen {
+  padding-bottom: 170px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url("../../screenshots/Background-Sugar.jpg");
+  background-size: 100% 100%;
+}
+
+.profile-screen-Rori {
+  background-image: url("../../screenshots/Background-Rori.jpg");
+  background-size: 100% 100%;
+}
+
+.profile-component__profile-img img {
+  width: 90px;
+  height: 90px;
+  border-radius: 30px;
+}
+
+.profile-component__profile-img {
+  margin-top: 250px;
+  margin-bottom: 0px;
+}
+
+.profile-component__profile-name {
+  text-align: center;
+  color: white;
+}
+
+.profile-nav {
+  border-top: var(--main-border);
+  display: flex;
+  justify-content: space-evenly;
+  padding: 14px 0;
+  background-color: beige;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+.profile-nav__list {
+  margin: 15px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.profile-nav__text {
+  font-size: 12px;
+}
+
+.profile-nav__img {
+  margin-bottom: 7px;
+}
